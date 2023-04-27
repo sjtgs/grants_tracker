@@ -22,4 +22,3 @@ class Grant_Management(models.Model):
     Email = models.EmailField()
     Phone = models.CharField(max_length=255)
     Year_Awarded = models.DateField()
-n 
