@@ -35,7 +35,7 @@ class Grant_Management(models.Model):
     POC_NAME = models.CharField(max_length=255)
     Email = models.EmailField()
     Phone = models.CharField(max_length=255)
-    Year_Awarded = models.DateField()
+    Year_Awarded = models.DateField(auto_now_add=True)
 
     def __str__(self):
         return self.item
